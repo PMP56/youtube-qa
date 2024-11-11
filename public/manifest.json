@@ -7,10 +7,6 @@
     "action": {
       "default_popup": "index.html"
     },
-    "background": {
-      "service_worker": "background.js",
-      "type": "module"
-    },
     "host_permissions": [
       "*://www.googleapis.com/*"
     ],
