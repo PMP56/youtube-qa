@@ -1,0 +1,22 @@
+{
+    "manifest_version": 3,
+    "name": "Youtube Video Q&A",
+    "version": "1.0.0",
+    "description": "Ask questions about YouTube videos.",
+    "permissions": ["scripting", "tabs", "activeTab", "storage"],
+    "action": {
+      "default_popup": "index.html"
+    },
+    "background": {
+      "service_worker": "background.js",
+      "type": "module"
+    },
+    "host_permissions": [
+      "*://www.googleapis.com/*"
+    ],
+    "icons": {
+      "48": "icons/icon48.png"
+    }
+  }
+  
+  
