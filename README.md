@@ -4,41 +4,42 @@ This Chrome extension enables users to ask questions about any YouTube video and
 
 ### Setup
 
-Clone the Repository:
+##### Clone the Repository:
 
-    ```bash
-    git clone https://github.com/your-username/yt-video-qa-extension.git
-    cd yt-video-qa-extension
-    ```
+```bash
+git clone https://github.com/your-username/yt-video-qa-extension.git
+cd yt-video-qa-extension
+```
 
-Configure the API Key:
+#### Configure the API Key:
 
-    Create or edit `config.json` in the `public` folder to include your OpenAI API key:
+Create or edit `config.json` in the `public` folder to include your OpenAI API key:
 
-    ```json
-    {
-        "OPENAI_API_KEY": "your_openai_api_key_here"
-    }
-    ```
+```json
+{
+    "OPENAI_API_KEY": "your_openai_api_key_here"
+}
+```
 
-Install Dependencies:
+#### Install Dependencies:
 
-    ```bash
-    npm install
-    # or
-    yarn install
-    ```
+```bash
+npm install
+# or
+yarn install
+```
 
-Build the Extension:
+#### Build the Extension:
+
 To build the extension, run:
 
-    ```bash
-    npm run build
-    # or
-    yarn build
-    ```
+```bash
+npm run build
+# or
+yarn build
+```
 
-    This command will generate the production files in the `dist` folder.
+This command will generate the production files in the `dist` folder.
 
 Load the Extension in Chrome: - Open Chrome and go to `chrome://extensions/`. - Enable **Developer mode** (toggle it on). - Click **Load unpacked** and select the `dist` folder.
 
